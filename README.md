@@ -11,9 +11,9 @@ A simple Python script that checks for outdated packages and automatically updat
 
 ## How It Works
 
-3. First the script updates `pip` to ensure the package manager is up-to-date.
-1. The script  fetches a list of all outdated packages by running `pip list --outdated`.
-2. It iterates over each outdated package and updates them to the latest version using `pip install --upgrade <package_name>`.
+1. First the script updates `pip` to ensure the package manager is up-to-date.
+2. The script  fetches a list of all outdated packages by running `pip list --outdated`.
+3. It iterates over each outdated package and updates them to the latest version using `pip install --upgrade <package_name>`.
 4. Finally, it prints a success message and waits for a few seconds before closing.
 
 ## Installation
