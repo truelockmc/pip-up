@@ -28,6 +28,11 @@ def update_pip():
         print(f"Error while updating pip: {e}")
 
 def main():
+    
+    # Update pip
+    print("Updating pip...")
+    update_pip()
+    
     print("Getting list of outdated packages...")
     outdated_packages = get_outdated_packages()
 
@@ -38,16 +43,12 @@ def main():
         for package in outdated_packages:
             package_name = package.split()[0]  # The package name is in the first column
             update_package(package_name)
-    
-    # Update pip
-    print("Updating pip...")
-    update_pip()
 
     # Final notification
     print("\nAll packages, including pip, have been successfully updated.")
     
     # Optional: Wait for a few seconds before closing
-    time.sleep(5)
+    time.sleep(30)
 
 if __name__ == "__main__":
     main()
