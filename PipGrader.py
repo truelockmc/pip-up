@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import subprocess
 import sys
 import time
@@ -52,3 +54,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
