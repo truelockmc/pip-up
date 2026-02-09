@@ -27,9 +27,9 @@ git clone https://github.com/truelockmc/pip-pack-grader.git
 Ensure you have Python installed and available in your system path.
 
 ## Configuration
-If you are using a venv or want to use this Tool in a different python env then your system installation, change the following variable in the Code:
-```python_path = ""```
-For example:
+If you are using a venv or want to use this Tool in a different python env then your system installation, change the following variable in the Code: <br></br>
+```python_path = ""```<br></br>
+For example:<br></br>
 ```python_path = "/home/user/venv/bin/python"```
 
 
